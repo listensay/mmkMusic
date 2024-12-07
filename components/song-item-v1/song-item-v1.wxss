@@ -1,0 +1,39 @@
+/* components/song-item-v1/song-item-v1.wxss */
+.song-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30rpx 0;
+}
+
+.song-item .item {
+  display: flex;
+}
+
+.song-item .item .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.song-item .item .info .songName {
+  font-size: smaller;
+}
+
+.song-item .item .info .name{
+  font-size: x-small;
+  color: #475569;
+}
+
+.song-item .item .cover {
+  width: 120rpx;
+  height: 120rpx;
+  flex-shrink: 0;
+  border-radius: 10rpx;
+  margin-right: 16rpx;
+}
+
+.song-item .more .pic {
+  width: 40rpx;
+  height: 40rpx;
+}

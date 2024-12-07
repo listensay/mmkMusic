@@ -1,0 +1,13 @@
+<!--components/song-item-v1/song-item-v1.wxml-->
+<view class="song-item">
+  <view class="item">
+    <image class="cover" src="{{ item.al.picUrl }}" />
+    <view class="info">
+      <view class="songName">{{ item.name }}</view>
+      <view class="name">{{ item.ar[0].name }}</view>
+    </view>
+  </view>
+  <view class="more">
+    <image class="pic" src="/images/arrow.png" mode="widthFix" mode="heightFix" />
+  </view>
+</view>

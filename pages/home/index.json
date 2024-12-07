@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Banners": "/components/banners/banners",
+    "SearchBtn": "/components/search-btn/search",
+    "TitleBar": "/components/title-bar/title-bar",
+    "SongItem": "/components/song-item-v1/song-item-v1",
+    "SongItemV2": "/components/song-item-v2/song-item-v2",
+    "SongItemTop": "/components/song-item-top/song-item-top"
+  }
+}

@@ -1,0 +1,14 @@
+<!--components/song-item-top/song-item-top.wxml-->
+<wxs src="/utils/format.wxs" module="fmt" />
+
+<view class="song-item-top">
+  <view class="item">
+    <view class="name">{{ item.name }}</view>
+    <block wx:for="{{ item.songs }}" wx:key="item">
+      <view class="song">{{ index + 1 }}.{{item.name}}</view>
+    </block>
+  </view>
+  <view>
+    <SongItemV2 cover="{{item.coverImgUrl}}" count="{{ fmt.formatCount(item.count) }}" />
+  </view>
+</view>

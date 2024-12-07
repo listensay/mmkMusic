@@ -1,0 +1,5 @@
+<!--components/search/search.wxml-->
+<view class="search" bind:tap="toSearchPage">
+  <image class="icon" src="/images/search.png" mode=""/>
+  <view>请输入搜索关键词</view>
+</view>

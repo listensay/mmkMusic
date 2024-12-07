@@ -1,0 +1,51 @@
+/* pages/mv/index.wxss */
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 24rpx;
+  grid-column-gap: 24rpx;
+}
+
+.mv .cover {
+  position: relative;
+}
+
+.mv .pic{
+  border-radius: 10rpx;
+}
+
+.mv .title {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-clamp: 2;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+  font-size: smaller;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.mv .cover .info{
+  width: 100%;
+  padding-right: 16rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 16rpx;
+  left: 0;
+  color: white;
+  font-size: small;
+  box-sizing: border-box;
+}
+
+.mv .cover .info .play {
+  display: flex;
+  align-items: center;
+}
+
+.mv .cover .info .play .icon {
+  width: 50rpx;
+  height: 100%;
+}

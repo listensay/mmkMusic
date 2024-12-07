@@ -1,0 +1,9 @@
+/* components/banners.wxss */
+.swiper {
+  border-radius: 16rpx;
+  overflow: hidden;
+}
+
+.icon {
+  width: 15rpx;
+}

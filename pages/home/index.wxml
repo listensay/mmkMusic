@@ -1,0 +1,47 @@
+<!--pages/home/index.wxml-->
+<wxs src="/utils/format.wxs" module="fmt"></wxs>
+
+<view class="container home">
+  <SearchBtn />
+  <Banners list="{{ banners }}" />
+  <view class="titlebar">
+    <TitleBar title="推荐歌曲" />
+  </view>
+  <view class="song-item">
+    <block wx:for="{{recommend}}" wx:key="item">
+      <SongItem item="{{item}}" />
+    </block>
+  </view>
+  <view class="titlebar">
+    <TitleBar title="热门歌单" />
+  </view>
+  <view class="song-item">
+    <view class="song-item-recommend">
+      <block wx:for="{{hotMenu}}" wx:key="item">
+        <view class="song-item-r">
+          <SongItemV2 cover="{{item.coverImgUrl}}" count="{{ fmt.formatCount(item.playCount) }}" />
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="titlebar">
+    <TitleBar title="推荐歌单" />
+  </view>
+  <view class="song-item">
+    <view class="song-item-recommend">
+      <block wx:for="{{recommendMenu}}" wx:key="item">
+        <view class="song-item-r">
+          <SongItemV2 cover="{{item.coverImgUrl}}" count="{{ fmt.formatCount(item.playCount) }}" />
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class="titlebar">
+    <TitleBar title="巅峰榜" />
+  </view>
+  <view>
+    <block wx:for="{{ topRank }}" wx:key="item">
+      <SongItemTop item="{{ item }}" />
+    </block>
+  </view>
+</view>

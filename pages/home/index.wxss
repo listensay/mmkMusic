@@ -1,0 +1,23 @@
+/* pages/home/index.wxss */
+.titlebar {
+  margin: 28rpx 0;
+}
+
+.home {
+  padding-bottom: 20rpx;
+}
+
+.song-item {
+  margin-bottom: 20rpx;
+}
+
+.song-item-recommend {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10rpx;
+}
+
+.song-item .song-item-r {
+  border-radius: 10rpx;
+  overflow: hidden;
+}

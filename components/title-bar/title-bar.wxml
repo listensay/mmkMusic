@@ -1,0 +1,8 @@
+<!--components/title-bar/title-bar.wxml-->
+<view class="title-bar">
+  <view class="title">{{ title }}</view>
+  <view class="more">
+    <view class="more-title">更多</view>
+      <image class="icon" src="/images/arrow.png" mode="widthFix" mode="heightFix" />
+  </view>
+</view>

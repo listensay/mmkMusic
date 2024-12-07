@@ -1,0 +1,22 @@
+/* components/song-item-v1/song-item-v1.wxss */
+.song-item {
+  position: relative;
+  width: 230rpx;
+  height: 230rpx;
+}
+
+.song-item .count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 6rpx 10rpx;
+  border-radius: 10rpx;
+  background-color: #0e0e0e8c;
+  color: white;
+  font-size: 22rpx;
+}
+
+.song-item .pic {
+  width: 230rpx;
+  height: 230rpx;
+}

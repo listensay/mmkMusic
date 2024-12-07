@@ -1,0 +1,24 @@
+/* components/song-item-top/song-item-top.wxss */
+.song-item-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+  background-color: #f9fafb;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.song-item-top .item {
+  padding: 20rpx;
+}
+
+.song-item-top .item .name {
+  margin-bottom: 14rpx;
+  color: #0f172a;
+}
+
+.song-item-top .item .song {
+  font-size: smaller;
+  color: #475569;
+  margin-bottom: 6rpx;
+}

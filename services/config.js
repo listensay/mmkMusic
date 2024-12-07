@@ -1,0 +1,1 @@
+export const baseUrl = 'https://coderwhy-music.vercel.app'

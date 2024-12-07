@@ -1,0 +1,5 @@
+<!--components/song-item-v1/song-item-v1.wxml-->
+<view class="song-item">
+  <image class="pic" src="{{cover}}" mode="widthFix" mode="heightFix" />
+  <view class="count">{{ count }}</view>
+</view>
